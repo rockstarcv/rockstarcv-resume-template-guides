@@ -2,8 +2,8 @@
 
 Public documentation for RockStarCV resume templates. Acamar is the pilot.
 
-Guide index: https://rockstarui.github.io/rockstarcv-resume-template-guides/
-Acamar guide: https://rockstarui.github.io/rockstarcv-resume-template-guides/acamar/
+Guide index: https://rockstarcv.github.io/rockstarcv-resume-template-guides/
+Acamar guide: https://rockstarcv.github.io/rockstarcv-resume-template-guides/acamar/
 
 ## Add a template guide
 1. Add a folder named for the template, such as orion/, with a self-contained index.html.
