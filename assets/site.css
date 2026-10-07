@@ -10,3 +10,8 @@
 .footer{border-top:1px solid var(--line);padding:1.5rem 0;color:var(--muted);font-size:.9rem}.footer a{color:#145b7b}
 @media(max-width:800px){.hero,.shell{grid-template-columns:1fr}.hero img{max-width:550px}.aside{position:static;order:-1}.article nav ul{columns:1}.wrap{padding-top:2rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1.25rem 0 2rem}.gallery figure{margin:0;background:#fff;border:1px solid var(--line);border-radius:.75rem;overflow:hidden}.gallery img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:contain;background:#f1f1f1}.gallery figcaption{padding:.7rem .85rem;color:var(--muted);font-size:.9rem;line-height:1.45}.article .source-copy{white-space:pre-wrap;font:inherit}.article .source-copy p{margin:.75rem 0}.article .source-copy h3{margin-top:1.3rem}.article .source-copy pre{white-space:pre-wrap;font:inherit}
+
+.tip-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1rem 0}.tip-card{padding:1rem 1.1rem;border:1px solid var(--line);border-radius:.7rem;background:var(--tint)}.article .tip-card h3{margin:.1rem 0 .45rem}.article .tip-card p{margin:.2rem 0}
+@media(max-width:640px){.tip-grid{grid-template-columns:1fr}}

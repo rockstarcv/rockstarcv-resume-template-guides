@@ -1,16 +1,17 @@
 # RockStarCV Resume Template Guides
 
-Public documentation for RockStarCV resume templates. Acamar is the pilot.
+Public, searchable documentation for 84 RockStarCV resume templates. Every guide includes template-specific builder instructions, role-tailored writing tips, six gallery images with image descriptions, and links to relevant RockStarCV Career Advice resources.
 
 Guide index: https://rockstarcv.github.io/rockstarcv-resume-template-guides/
-Acamar guide: https://rockstarcv.github.io/rockstarcv-resume-template-guides/acamar/
 
-## Add a template guide
-1. Add a folder named for the template, such as orion/, with a self-contained index.html.
-2. Include a descriptive title and summary, canonical URL on this GitHub Pages host, and crawlable links to this index.
-3. Add a card to the index and the page URL to sitemap.xml.
-4. Verify the deployed page, canonical, robots access, and sitemap.
+The site is hosted on GitHub Pages under the `rockstarcv` account. Public HTML, canonical URLs, crawlable links, `robots.txt`, and `sitemap.xml` make the guides eligible for Google Search; they do not guarantee crawling, indexing, or rankings. Use Search Console URL Inspection to verify Google’s status.
 
-Public hosting and crawlable HTML make pages eligible for Google Search. They do not guarantee crawling, indexing, or rankings. Use Google Search Console URL Inspection to verify indexing when access is available.
+## Repository structure
 
-Template details links may point to the relevant product page; the guides themselves are hosted on GitHub Pages.
+- `<template>/index.html` — individual guide
+- `assets/images/<template-slug>/` — six AVIF gallery images for each guide
+- `assets/site.css` — shared responsive styles
+- `sitemap.xml` — guide URLs plus image locations, titles, and captions
+- `.github/workflows/pages.yml` — GitHub Pages deployment workflow
+
+When adding a new template, include its source-based guide, product gallery images, unique canonical URL, internal index link, and sitemap entry.
